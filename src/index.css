@@ -1,0 +1,223 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+.body{
+  color: white;
+
+}
+
+.navbar-container {
+  margin: 0;
+  display: block;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100px;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+/* Navbar.css */
+.navbar-container {
+  padding: 5px 10;
+}
+
+.navbar {
+  border-radius: 15px;
+}
+
+.navbar-brand {
+  font-size: 25px;
+}
+
+.navbar-nav .nav-link {
+  font-size: 18px;
+  margin-left: 20px;
+}
+
+/* SearchBar.css */
+/* SearchBar.css or your custom CSS file */
+.search-bar {
+  max-width: 250px;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.search-bar input {
+  margin-left: 20px;
+  width: 200px;
+  height: 35px;
+  flex: 1;
+  border: none;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: yellow; /* Set the background color of the input to yellow */
+}
+
+.container2 {
+  background-image: url('../public/bg-img2.jpg'); /* Set your background image URL */
+  background-size: cover; /* Adjust the size of the background image */
+  background-position: center;
+   /*filter: blur(5px); Apply a blur effect to the background image */
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-left: 30px;
+}
+
+.content {
+  background-color:none; /* Add a semi-transparent white background to the content */
+  padding: 20px;
+  border-radius: 10px;
+  text-align: left;
+  width: 80%;
+  max-width: 500px;
+ /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow to the content */
+  color: white;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.rounded-button {
+  border: none;
+  background-color: yellow; /* Button background color */
+  color: black; /* Button text color */
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: bold;
+
+}
+
+.rounded-button:hover {
+  background-color: #0056b3; /* Button background color on hover */
+}
+
+.rounded-button2 {
+  border: none;
+  background-color: red; /* Button background color */
+  color: black; /* Button text color */
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: bold;
+}
+
+.rounded-button:hover {
+  background-color: #0056b3; /* Button background color on hover */
+}
+
+
+/* CSS */
+.image-container {
+  position: relative;
+  width: 500px; /* Adjust the width as needed */
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* background-color: rgba(0, 0, 0, 0.7); Adjust background color and opacity */
+  color: white; /* Text color */
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.img-bg{
+  filter: blur(7px);
+}
+
+/* Footer.css */
+
+.footer {
+  background-color: yellow;
+  padding: 10px; /* Adjust padding as needed */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px;
+}
+
+.footer-heading {
+  font-size: 20px;
+  margin: 5px; /* Remove default margin */
+}
+
+.footer-text {
+  font-size: 14px;
+  margin: 0; 
+  /* Remove default margin */
+}
